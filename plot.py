@@ -81,8 +81,8 @@ def main():
     fig.suptitle(
         "Black-faced Spoonbill observations in Hong Kong by month, 2020–2025"
     )
-    fig.supxlabel("longitude")
-    fig.supylabel("latitude")
+    fig.supxlabel("Longitude (decimal degrees)")
+    fig.supylabel("Latitude (decimal degrees)")
     fig.tight_layout(rect=[0, 0, 1, 0.96])
 
     OUT.mkdir(exist_ok=True)
