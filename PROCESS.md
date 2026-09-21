@@ -1,15 +1,13 @@
 # Process
 
-<!-- Same as assignment 1, same honesty. Which tools you used and for what; one
-thing you kept and why it was good; one thing you rejected and why it was wrong.
-"I did not use any" is fine if it is true.
-
-If a model wrote most of plot.py, which is likely and allowed, the interesting part
-is what you had to correct: did it invent a column name, use pandas where a list
-would do, silently drop the rows it could not parse? -->
-
 ## Tools
+
+I used the GBIF website to filter and download occurrence records for *Platalea minor* in Hong Kong. I used ChatGPT/Codex to inspect the archive and its fields, adapt the template code, and diagnose syntax and indentation errors. I ran both scripts in VS Code and checked the printed record counts and the resulting picture.
 
 ## Kept
 
+I kept the twelve monthly small maps because they show location and season at the same time. Every panel uses the same longitude and latitude limits, so the months can be compared directly. I also kept only the six complete years from 2020 to 2025.
+
 ## Rejected
+
+I rejected a single line chart of monthly totals because it would hide where the records occurred. I also rejected interpreting the number of GBIF records as the number of birds. Recording effort varies, repeated visits can produce multiple records, and some places are observed more often than others.
